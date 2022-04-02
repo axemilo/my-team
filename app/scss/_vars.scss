@@ -1,0 +1,47 @@
+// Fonts
+%large-font {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 700;
+}
+
+%huge-font {
+  font-size: 64px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+%big-font {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+%medium-font {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+%default-font {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+%secondary-font {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+// Colors
+
+$green: #014e56;
+$coral: #f67e7e;
+$white: #fff;
+$rapture-blue: #79c8c7;
+$police-blue: #2c6269;
+$jungle-green: #004047;
+$state-green: #012f34;
+$dark-green: #002529;
