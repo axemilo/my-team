@@ -242,3 +242,28 @@
     margin-right: 16px;
   }
 }
+
+// Media
+@media only screen and(max-width: 768px) {
+  .intro {
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__title {
+      font-weight: 700;
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+    &__text {
+      width: 457px;
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
